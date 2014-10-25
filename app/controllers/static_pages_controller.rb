@@ -14,4 +14,7 @@ end
 
   def contact
   end
+
+  def profile
+  end
 end
