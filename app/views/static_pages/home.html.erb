@@ -1,6 +1,7 @@
 <% provide(:title, '') %>
 <%= link_to "Home", root_path %>
 <% if signed_in? %>
+<div class="container-fluid">
   <div class="row">
     <aside class="span4">
       <section>
@@ -19,15 +20,92 @@
     </div>
   </div>
 <% else %>
-  <div class="center hero-unit">
-    <h1>Welcome to Note Sharing in Peddie</h1>
-
-  <h2>
-    This is the home page for note sharing website for SB Zui. 
-  </h2>
-
-    <%= link_to "Sign up now!", signup_path,
-                                class: "btn btn-large btn-primary" %>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 column">
+      <div class="carousel slide" id="carousel-916021">
+        <ol class="carousel-indicators">
+          <li class="active" data-slide-to="0" data-target="#carousel-916021">
+          </li>
+          <li data-slide-to="1" data-target="#carousel-916021">
+          </li>
+          <li data-slide-to="2" data-target="#carousel-916021">
+          </li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img alt="" src="https://scontent-a.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/1468769_3124307384205_8292399139657933229_n.jpg?oh=7f537bdd517b4449f55b979e6800e11b&oe=54E2A50D" />
+            <div class="carousel-caption">
+              <h4>
+                Musician 
+              </h4>
+              <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <img alt="" src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10563079_3124291463807_1927105901913611244_n.jpg?oh=612d84f66e25f4968f0057fc5fa439cf&oe=54E2173A&__gda__=1420886968_903e138bb58197aa8e34c5301e7695fd" />
+            <div class="carousel-caption">
+              <h4>
+                Second Thumbnail label
+              </h4>
+              <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <img alt="" src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10524313_3124313944369_544239421108133803_n.jpg?oh=4f4db2aa8b0a90c27dd6342e2e37f791&oe=54E89775&__gda__=1424350984_09a0090f3afb207b92d80fdfcf54f225" />
+            <div class="carousel-caption">
+              <h4>
+                Third Thumbnail label
+              </h4>
+              <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              </p>
+            </div>
+          </div>
+        </div> <a class="left carousel-control" href="#carousel-916021" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-916021" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+    </div>
   </div>
+</div>
+  <div class="row">
+    <div class="col-md-4 column">
+      <h2>
+        Heading
+      </h2>
+      <p>
+        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+      </p>
+      <p>
+        <a class="btn" href="#">View details »</a>
+      </p>
+    </div>
+    <div class="col-md-4 column">
+      <h2>
+        Heading
+      </h2>
+      <p>
+        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+      </p>
+      <p>
+        <a class="btn" href="#">View details »</a>
+      </p>
+    </div>
+    <div class="col-md-4 column">
+      <h2>
+        Heading
+      </h2>
+      <p>
+        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+      </p>
+      <p>
+        <a class="btn" href="#">View details »</a>
+      </p>
+    </div>
+  </div>
+</div>
 
 <% end %>
