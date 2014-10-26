@@ -17,4 +17,14 @@ end
 
   def profile
   end
+
+  def nancyzhou
+  end
+
+  def brabeebawang
+  end
+
+  def venues
+  end
+
 end
