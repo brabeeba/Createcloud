@@ -24,6 +24,9 @@ end
   def brabeebawang
   end
 
+  def kaichingchang
+  end
+
   def venues
   end
 
